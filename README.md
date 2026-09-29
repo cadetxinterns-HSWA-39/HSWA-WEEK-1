@@ -51,4 +51,4 @@ Full detail in `docs/DATA_CLEANING_LOG.pdf`. Summary of what changed:
   found to not be unique in the source data (197 and 202 IDs each
   shared by two unrelated transactions). Fixed with new surrogate
   keys `invoice_uid` / `payment_uid`, and flagged every affected row
-  with `invoice_id_ambiguous`
+  with `invoice_id_ambiguous`.
